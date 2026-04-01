@@ -1,1 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy | Oracul</title>
 
+<style>
+:root{
+  --bg:#0b0f19;
+  --card:#0f172a;
+  --text:#e5e7eb;
+  --muted:#a1a1aa;
+  --border:rgba(255,255,255,.08);
+  --link:#93c5fd;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background:
+    radial-gradient(900px 450px at 15% 0%, rgba(56,189,248,.15), transparent 60%),
+    radial-gradient(900px 450px at 85% 10%, rgba(167,139,250,.16), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  line-height:1.6;
+  padding:40px 16px;
+}
+.card{
+  max-width:900px;
+  margin:0 auto;
+  background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:32px;
+  backdrop-filter: blur(6px);
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+h1{margin-top:0}
+h2{margin-top:28px}
+.muted{color:var(--muted)}
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+
+.lang-switch{
+  display:flex;
+  justify-content:flex-end;
+  gap:12px;
+  margin-bottom:16px;
+}
+.lang-btn{
+  cursor:pointer;
+  padding:6px 12px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  background:transparent;
+  color:var(--text);
+}
+.lang-btn.active{
+  background:var(--link);
+  color:#000;
+  font-weight:600;
+}
+.hidden{display:none}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="lang-switch">
+  <button class="lang-btn active" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('ru')">Русский</button>
+</div>
+
+<!-- ENGLISH VERSION -->
+<div id="en">
+
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: April 1, 2026</p>
+
+<p>
+Oracul is a mobile application designed for match analytics, providing insights,
+statistics, and key match events in real time.
+</p>
+
+<h2>Data Collection</h2>
+<p>
+Oracul does not collect, store, or process any personal data.
+We do not require user registration and do not request names, email addresses,
+phone numbers, or any other personally identifiable information.
+</p>
+
+<p>
+The application does not use analytics services (including Firebase),
+does not display advertisements, and does not use advertising identifiers.
+</p>
+
+<h2>Third-Party API</h2>
+<p>
+The application retrieves match analytics data from a third-party API.
+Statistics and event details are loaded directly from the provider’s servers.
+The application does not store this information and does not associate it with any individual user.
+</p>
+
+<h2>Data Sharing</h2>
+<p>
+Since no personal data is collected, no data is sold, shared, or transferred to third parties.
+</p>
+
+<h2>Children’s Privacy</h2>
+<p>
+The application is not specifically directed toward children under the age of 13.
+We do not knowingly collect any data from children.
+</p>
+
+<h2>Security</h2>
+<p>
+Because the application does not collect or store personal information,
+there are no risks related to user data storage or processing within the app.
+</p>
+
+<h2>Contact</h2>
+<p>
+If you have any questions regarding this Privacy Policy,
+please contact the developer at:
+<a href="mailto:your@email.com">suwanhasun919@gmail.com</a>
+</p>
+
+<p class="muted">
+© 2026 Oracul. All rights reserved.
+</p>
+
+</div>
+
+<!-- RUSSIAN VERSION -->
+<div id="ru" class="hidden">
+
+<h1>Политика конфиденциальности</h1>
+<p class="muted">Последнее обновление: 1 апреля 2026</p>
+
+<p>
+Oracul — мобильное приложение для аналитики матчей, предоставляющее статистику,
+инсайты и ключевые события в режиме реального времени.
+</p>
+
+<h2>Сбор данных</h2>
+<p>
+Приложение Oracul не собирает, не хранит и не обрабатывает персональные данные пользователей.
+Регистрация не требуется. Мы не запрашиваем имя, email, номер телефона или другие персональные данные.
+</p>
+
+<p>
+Приложение не использует аналитические сервисы (включая Firebase),
+не показывает рекламу и не применяет рекламные идентификаторы.
+</p>
+
+<h2>Сторонний API</h2>
+<p>
+Для получения аналитических данных используется сторонний API.
+Информация загружается напрямую с серверов поставщика.
+Приложение не сохраняет эти данные и не связывает их с пользователями.
+</p>
+
+<h2>Передача данных</h2>
+<p>
+Поскольку персональные данные не собираются,
+они не передаются и не продаются третьим лицам.
+</p>
+
+<h2>Дети</h2>
+<p>
+Приложение не предназначено специально для детей младше 13 лет.
+Сбор данных о детях не осуществляется.
+</p>
+
+<h2>Безопасность</h2>
+<p>
+Так как персональные данные не собираются и не хранятся,
+риски, связанные с их обработкой, отсутствуют.
+</p>
+
+<h2>Контакты</h2>
+<p>
+По вопросам, связанным с данной Политикой конфиденциальности,
+вы можете связаться с разработчиком:
+<a href="mailto:your@email.com">suwanhasun919@gmail.com</a>
+</p>
+
+<p class="muted">
+© 2026 Oracul. Все права защищены.
+</p>
+
+</div>
+
+</div>
+
+<script>
+function setLang(lang){
+  document.getElementById('en').classList.add('hidden');
+  document.getElementById('ru').classList.add('hidden');
+
+  document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+
+  document.getElementById(lang).classList.remove('hidden');
+  event.target.classList.add('active');
+
+  document.documentElement.lang = lang;
+}
+</script>
+
+</body>
+</html>
